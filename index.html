@@ -30,7 +30,7 @@
             <p>うんちんこしましょう</p>
             <p>難易度表の読み込みと表示に数秒かかります。</p>
             <hr>
-            <p class="mb-0">説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文</p>
+            <p class="mb-0">うんちんこします</p>
         </div>
 
 
@@ -81,6 +81,9 @@
                         "<a href='http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=" + info[
                             i]
                         .md5 + "' target='_blank'>" + info[i].title + "</a></td>").appendTo(str);
+                    
+                    //Subtitle
+                    $("<td width='40%'>" + info[i].subtitle + "</td>").appendTo(str);
 
                     // Artist
                     $("<td width='40%'>" + info[i].artist + "</td>").appendTo(str);
